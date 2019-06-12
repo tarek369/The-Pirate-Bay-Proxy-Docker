@@ -3,5 +3,5 @@ services:
     hello:
         ports:
             - '890:80'
-        image: 'hello:latest'
+        image: 'PirateBay:latest'
         restart: "no"
