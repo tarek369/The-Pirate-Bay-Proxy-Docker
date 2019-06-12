@@ -1,0 +1,7 @@
+version: '3'
+services:
+    hello:
+        ports:
+            - '890:80'
+        image: 'hello:latest'
+        restart: "no"
