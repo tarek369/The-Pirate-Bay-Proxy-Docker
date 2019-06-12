@@ -3,5 +3,5 @@ services:
     hello:
         ports:
             - '890:80'
-        image: 'PirateBay:latest'
+        image: 'tarek369/pirate_bay-proxy'
         restart: "no"
