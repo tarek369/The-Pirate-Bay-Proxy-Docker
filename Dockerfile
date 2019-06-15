@@ -30,7 +30,7 @@ RUN rm -r /${NGINX_VERSION} && \
 rm /${NGINX_VERSION}.tar.gz && \
 rm -rf /tmp/* && \
 apk del ${build_pkgs} && \
-rm -rf /var/cache/apk/* 
+rm -rf /var/cache/apk/* && \
 rm -rf /ngx_http_substitutions_filter_module
 
 COPY nginx.conf /usr/local/nginx/conf/nginx.conf
